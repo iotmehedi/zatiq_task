@@ -1,16 +1,31 @@
 # zatiq_task
 
-A new Flutter project.
+A Flutter application that fetches and displays products from an API with pull-to-refresh, loading states, error handling, and search functionality.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- 🛒 Product listing with card UI
+- 📝 Product details (name, description, price)
+- 🖼️ Product images with placeholder support
+- 🔄 Pull-to-refresh functionality
+- ⏳ Loading state during API calls
+- ❌ Error handling for API failures
+- 📚 Pagination support (if API provides)
+- 🔍 Search functionality (local or API-based)
+- 🌐 Network connectivity awareness
 
-A few resources to get you started if this is your first Flutter project:
+## Packages Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- State Management: [`get: ^4.7.2`])
+- Local Storage: [`get_storage: ^2.1.1`]
+- HTTP Client: [`dio: ^5.8.0+1`]
+- Networking: [`connectivity_plus: ^6.1.3`]
+- Image Caching: [`cached_network_image: ^3.4.1`]
+- SVG Support: [`flutter_svg: ^2.0.17`]
+- Search Dropdown: [`search_choices: ^2.3.1`]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Installation
+
+1. Clone the repository
+   git clone https://github.com/iotmehedi/zatiq_task.git
